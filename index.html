@@ -4,92 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: #f4f4f4;
-        }
-        .container {
-            width: 80%;
-            margin: auto;
-            overflow: hidden;
-        }
-        header {
-            background: #333;
-            color: #fff;
-            padding-top: 30px;
-            min-height: 70px;
-            border-bottom: #77aaff 3px solid;
-        }
-        header a {
-            color: #fff;
-            text-decoration: none;
-            text-transform: uppercase;
-            font-size: 16px;
-        }
-        header ul {
-            padding: 0;
-            list-style: none;
-        }
-        header li {
-            float: left;
-            display: inline;
-            padding: 0 20px 0 20px;
-        }
-        header #branding {
-            float: left;
-        }
-        header #branding h1 {
-            margin: 0;
-        }
-        header nav {
-            float: right;
-            margin-top: 10px;
-        }
-        .showcase {
-            min-height: 400px;
-            background: url('showcase.jpg') no-repeat 0 -400px;
-            text-align: center;
-            color: #fff;
-        }
-        .showcase h1 {
-            margin-top: 100px;
-            font-size: 55px;
-            margin-bottom: 10px;
-        }
-        .showcase p {
-            font-size: 20px;
-        }
-        .main-content {
-            padding: 20px;
-            background: #fff;
-        }
-        .main-content h2 {
-            text-align: center;
-        }
-        .main-content ul {
-            list-style: none;
-            padding: 0;
-        }
-        .main-content ul li {
-            background: #f4f4f4;
-            margin: 10px 0;
-            padding: 10px;
-            border: #ccc 1px solid;
-        }
-        #foot{
-            background-color: #2c3e50; 
-            color: #ecf0f1;
-        }
-    </style>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
         <div class="container">
             <div id="branding">
-                <h1>Moje Portfolio</h1>
+                <h1>Portfolio</h1>
             </div>
             <nav>
                 <ul>
@@ -102,7 +23,7 @@
     <section class="showcase">
         <div class="container">
             <h1>Witaj w moim portfolio</h1>
-            <p>Przeglądaj moje projekty i znajdź mnie na GitHubie</p>
+            <p>Zobacz moje projekty i znajdź mnie na GitHubie</p>
         </div>
     </section>
     <section class="main-content" id="projects">
@@ -110,40 +31,63 @@
             <h2>Moje Projekty</h2>
             <ul>
                 <li>
-                    <h3>PoliJam</h3>
-                    <p>Opis projektu 1</p>
+                    <h3>PoliJam organizowany przez PŚK. 2025</h3>
+                    <p>Gra multiplayer w silniku Unity, z wykorzystaniem API FishNet.<br>W grze trzeba rozwiązac kilka zagadek i uciekać przed potworem.Gra robiona w zespole :<br> Dawid Wójcikiwski <br> Piotr Zieliński<br> Grzegorz Sygut <br>Adrian Zaleśny<br> Daniel Araźny </p>
                     <a href="https://github.com/WIDSKI002/UmnieDziala">Zobacz na GitHubie</a>
                 </li>
                 <li>
                     <h3>Duck Hunt 3D Vr</h3>
-                    <p>Opis projektu 2</p>
+                    <p>Duck Hunt w który można chodzić i zabijać kaczki. Do dyspozycji są dwie bronie. Gra robiona w zespole :<br> Dawid Wójcikiwski <br> Piotr Zieliński<br> Mateusz Wrenk</p>
                     <a href="https://github.com/WIDSKI002/Projekt_VR">Zobacz na GitHubie</a>
                 </li>
                 <li>
                     <h3>Platformowka2D</h3>
-                    <p>Opis projektu 3</p>
+                    <p>Platformowka w której trzeba przejść dwa poziomy.<br> Imy szybciej przejdziemy i imy więcej zbierzemy jaje tym wiekszy bedzie wynik.<br>W grze są różne utrudnienia.Gra robiona w zespole :<br> Dawid Wójcikiwski <br> Piotr Zieliński<br> Mateusz Wrenk</p>
                     <a href="https://github.com/WIDSKI002/Platformowka2D">Zobacz na GitHubie</a>
                 </li>
                 <li>
                     <h3>Saper</h3>
-                    <p>Opis projektu 4</p>
+                    <p>Saper z dodatkowymi ułatwieniami. Gra robiona w zespole :<br> Dawid Wójcikiwski <br> Piotr Zieliński<br> Mateusz Wrenk</p>
                     <a href="https://github.com/WIDSKI002/sdl">Zobacz na GitHubie</a>
                 </li>
                 <li>
                     <h3>Slot Android</h3>
-                    <p>Opis projektu 5</p>
-                    <a href=" https://github.com/WIDSKI002/SlotAndroid">Zobacz na GitHubie</a>
+                    <p>Gra typu Slot na Androida gdzie do Odblokowania jest kilka maszyn</p>
+                    <a href="https://github.com/WIDSKI002/SlotAndroid">Zobacz na GitHubie</a>
                 </li>
+                <li>
+                    <h3>Genderator map 3D</h3>
+                    <p>Obecnie w tracie robienia. Prost gener map na podstawie map Wysokości.<br> W przyszłości będzie jeszcze symulacja Cienia przy użycia shader</p>
+                    <a href="https://github.com/WIDSKI002/generator3D">Zobacz na GitHubie</a>
+                </li>
+                <li>
+                    <h3>Lairs bar strona html</h3>
+                    <p>Grę robiłem ale w pewnym momencie ją porzuciłem z powodu braku czasu</p>
+                    <a href="https://github.com/WIDSKI002/Ucieczka-z-kremla">Zobacz na GitHubie</a>
+                </li>
+                <li>
+                    <h3>Strona typu kurnik z użyciem javy jako serwer</h3>
+                    <p>Stroan typu kurnik z 3 grami. Gdzie cała mechanika jest po stronie serwera.<br>Gra robiona w zespole :<br> Dawid Wójcikiwski <br> Piotr Zieliński<br> Mateusz Wrenk</p>
+                    <a href="https://github.com/WIDSKI002/StronaTypuKurnik">Zobacz na GitHubie</a>
+                </li>
+                <li>
+                    <h3>Inżynierka</h3>
+                    <p>Obecnie na inżynierkę robię grę typu Escape Room z losowym ułożeniem losowych pokoi z losowymi zagadkami.</p>
+                    <a href="https://github.com/WIDSKI002/inz">Zobacz na GitHubie</a>
+                </li>
+              
             </ul>
         </div>
     </section>
-    <section class="main-content" id="contact">
-        <div class="container">
+    <section class="contact-content" id="contact">
+        <div class="container"><ul>
         <li>
+            
             <h3>Tel: 798 463 177</h3>
            <h3>mail: dwojcikowski111@gmail.com</h3>
-           <h3>Częściej odpowiadam na uczelniany mail: s094141@student.tu.kielce.pl</h3>
+           <p>Częściej odpowiadam na uczelniany mail: s094141@student.tu.kielce.pl</p>
         </li></div>
+    </ul>
     </section>
     <footer>
         <div class="container" id="foot">
